@@ -55,7 +55,7 @@
         <CleanSession>False</CleanSession>      <!-- True / False -->
         <Retain>True</Retain>                   <!-- True / False -->
         <LastWillRetain>True</LastWillRetain>   <!-- True / False -->
-        <Publish_OnlyNewValues>True</Publish_OnlyNewValues>  <!-- True / False -->
+        <Publish_OnlyNewValues>False</Publish_OnlyNewValues>  <!-- True / False -->
         <client_id>myHeater_MQTT_Client</client_id> <!-- unique ID for your purposes -->
     </mqtt_client>
 </mqtt_client_cfg>

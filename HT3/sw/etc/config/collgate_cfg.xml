@@ -39,7 +39,7 @@
         <cfg_file>./etc/config/HT3_db_cfg.xml</cfg_file>
     </ht_if>
     <MQTT_client_if>
-        <enable>Off</enable>
+        <enable>On</enable>
         <cfg_file>./etc/config/mqtt_client_cfg.xml</cfg_file>
     </MQTT_client_if>
     <SPS_if>

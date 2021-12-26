@@ -147,7 +147,7 @@
               own name and suffix
     -->
     <rrdtool-db>
-      <enable>on</enable>
+      <enable>off</enable>
       <step_seconds>60</step_seconds>
       <starttime_utc>1344000000</starttime_utc>
       <!-- autocreate_draw:
@@ -162,7 +162,7 @@
 
     <!-- global configuration-values -->
     <data_interface>
-      <comm_type>SOCKET</comm_type> <!-- communication-types are:
+      <comm_type>ASYNC</comm_type> <!-- communication-types are:
                                             ASYNC:=tty/comport; SOCKET:= socket-interface
                                             If daemon: 'ht_proxy' is used then <comm_type>SOCKET is required !
                                     -->
